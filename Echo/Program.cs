@@ -3,7 +3,7 @@
     Console.Write("Enter your name > ");
     
     var name = Console.ReadLine();
-    if (string.IsNullOrEmpty(name)) break;
+    if (name == "") break;
 
     Console.WriteLine($"Hello, {name}.");
 }
